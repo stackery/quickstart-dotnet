@@ -16,7 +16,7 @@ namespace StackeryFunction
 
             var tableName = Environment.GetEnvironmentVariable("TABLE_NAME");
             Console.WriteLine(tableName);
-            var id = "1";
+            var id = "4444";
             var content = "newItem";
             // Console.WriteLine("Writing " + skmax + " items for partition key: " + ipk);
             var request = new PutItemRequest()

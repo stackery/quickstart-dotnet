@@ -1,4 +1,4 @@
-# Stackery Quickstart .Net/C#
+# Stackery Quickstart .NET/C#
 
 This is a simple backend API for a list app, written in C#.
 
