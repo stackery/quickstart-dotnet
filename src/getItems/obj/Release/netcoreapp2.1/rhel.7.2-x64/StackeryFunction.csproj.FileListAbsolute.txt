@@ -1,0 +1,11 @@
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/bin/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.deps.json
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/bin/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.runtimeconfig.json
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/bin/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.runtimeconfig.dev.json
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/bin/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.dll
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/bin/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.pdb
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/obj/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.csprojAssemblyReference.cache
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/obj/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.csproj.CoreCompileInputs.cache
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/obj/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.AssemblyInfoInputs.cache
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/obj/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.AssemblyInfo.cs
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/obj/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.dll
+/Users/jun/Desktop/code/quickstart-dotnet/src/getItems/obj/Release/netcoreapp2.1/rhel.7.2-x64/StackeryFunction.pdb
