@@ -1,7 +1,9 @@
 # local build directories
-.aws-sam
-.stackery
+.aws-sam/
+.stackery/
+.stackery.template.yaml
 
 # dependencies
 bin/
 obj/
+Release/
