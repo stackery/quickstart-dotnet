@@ -14,11 +14,11 @@ namespace StackeryFunction
             Console.WriteLine(eventTrigger);
             AmazonDynamoDBClient client = new AmazonDynamoDBClient();
 
-            var tableName = Environment.GetEnvironmentVariable("TABLE_NAME");
-            Console.WriteLine(tableName);
-            var id = "4444";
-            var content = "newItem";
-            // Console.WriteLine("Writing " + skmax + " items for partition key: " + ipk);
+            var tableName = Environment.GetEnvironmentVariable("TABLE_NAME"); // get the table name from the automatically populated environment variables
+            var id = "1"; // modify with each invoke so the id does not repeat
+            var content = "This is my content"; // modify content here
+            Console.WriteLine("Adding item " + id + " to table " + tableName);
+            // Write a new item to the ItemTable
             var request = new PutItemRequest()
             {
                 TableName = tableName,
@@ -31,7 +31,7 @@ namespace StackeryFunction
 
             var response = client.PutItemAsync(request).Result;
 
-            Console.WriteLine("Done!");
+            Console.WriteLine("Item added to table, done!");
             return response;
         }
     }

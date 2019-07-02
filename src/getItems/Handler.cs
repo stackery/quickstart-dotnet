@@ -14,18 +14,16 @@ namespace StackeryFunction
             Console.WriteLine(eventTrigger);
             AmazonDynamoDBClient client = new AmazonDynamoDBClient();
 
-            var tableName = Environment.GetEnvironmentVariable("TABLE_NAME");
-            Console.WriteLine(tableName);
+            var tableName = Environment.GetEnvironmentVariable("TABLE_NAME"); // get the table name from the automatically populated environment variables
 
-            // Console.WriteLine("Writing " + skmax + " items for partition key: " + ipk);
+            // Use dynamodb to get items from the ItemTable
             var request = new ScanRequest()
             {
                 TableName = tableName
             };
 
-            var response = client.ScanAsync(request).Result;
+            var response = client.ScanAsync(request).Result.Items;
 
-            Console.WriteLine("Done!");
             return response;
         }
     }

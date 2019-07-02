@@ -4823,23 +4823,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/jun/.nuget/packages/": {},
+    "/Users/stackery/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jun/Desktop/code/quickstart-dotnet/src/postItem/StackeryFunction.csproj",
+      "projectUniqueName": "/Users/stackery/Code/_quickstart_stacks/quickstart-dotnet/src/postItem/StackeryFunction.csproj",
       "projectName": "StackeryFunction",
-      "projectPath": "/Users/jun/Desktop/code/quickstart-dotnet/src/postItem/StackeryFunction.csproj",
-      "packagesPath": "/Users/jun/.nuget/packages/",
-      "outputPath": "/Users/jun/Desktop/code/quickstart-dotnet/src/postItem/obj/",
+      "projectPath": "/Users/stackery/Code/_quickstart_stacks/quickstart-dotnet/src/postItem/StackeryFunction.csproj",
+      "packagesPath": "/Users/stackery/.nuget/packages/",
+      "outputPath": "/Users/stackery/Code/_quickstart_stacks/quickstart-dotnet/src/postItem/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jun/.nuget/NuGet/NuGet.Config"
+        "/Users/stackery/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
