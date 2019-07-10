@@ -16,7 +16,7 @@ namespace StackeryFunction
 
             var tableName = Environment.GetEnvironmentVariable("TABLE_NAME"); // get the table name from the automatically populated environment variables
 
-            // Use dynamodb to get items from the ItemTable
+            // Use dynamodb to get items from the Item table
             var request = new ScanRequest()
             {
                 TableName = tableName

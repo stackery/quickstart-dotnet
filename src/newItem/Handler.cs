@@ -18,7 +18,7 @@ namespace StackeryFunction
             var id = "1"; // modify with each invoke so the id does not repeat
             var content = "This is my content"; // modify content here
             Console.WriteLine("Adding item " + id + " to table " + tableName);
-            // Write a new item to the ItemTable
+            // Write a new item to the Item table
             var request = new PutItemRequest()
             {
                 TableName = tableName,
