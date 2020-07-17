@@ -10,7 +10,7 @@ Resources:
         - ResourceName: newItem
       CodeUri: src/newItem
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -38,7 +38,7 @@ Resources:
         - ResourceName: getItems
       CodeUri: src/getItems
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
